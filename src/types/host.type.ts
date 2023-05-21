@@ -3,6 +3,6 @@ export type Host = {
   email: string;
   avatarUrl?: string;
   password: string;
-  isPro: boolean;
-  id: number;
+  isPro: any;
+  // id: number;
 };

@@ -1,4 +1,4 @@
-import { Host } from "./host.type";
+import { Host } from './host.type';
 
 export type Comment = {
   text: string;

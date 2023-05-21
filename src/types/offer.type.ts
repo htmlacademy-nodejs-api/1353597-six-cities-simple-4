@@ -1,14 +1,13 @@
-import { Host } from "./host.type";
-import { Location } from "./location.type";
-import { OfferCity } from "./offer-city.enum";
-import { OfferGoods } from "./offer-goods.enum";
-import { OfferType } from "./offer-type.enum";
+import { Host } from './host.type';
+import { Location } from './location.type';
+import { OfferCity } from './offer-city.enum';
+import { OfferGoods } from './offer-goods.enum';
+import { OfferType } from './offer-type.enum';
 
 export type Offer = {
   title: string;
   description: string;
   date: Date;
-  bedrooms: number;
   city: OfferCity;
   previewImage: string;
   images: string[];
@@ -21,6 +20,7 @@ export type Offer = {
   goods: OfferGoods[];
   host: Host;
   countComments: number;
+  // location: string;
   location: Location;
   id: number;
 };
