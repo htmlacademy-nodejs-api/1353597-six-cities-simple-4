@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов (простой)»
 
 * Студент: [Адель Закирова](https://up.htmlacademy.ru/nodejs-api/4/user/1353597).
-* Наставник: [Глеб Клецков] (https://htmlacademy.ru/profile/id1487865).
+* Наставник: [Глеб Клецков](https://htmlacademy.ru/profile/id1487865).
 
 ---
 
